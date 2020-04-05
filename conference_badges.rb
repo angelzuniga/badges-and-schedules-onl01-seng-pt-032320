@@ -30,3 +30,4 @@ end
   assign_rooms(guests).each do |rooms|
     puts rooms
   end
+end
