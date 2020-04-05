@@ -21,12 +21,12 @@ end
 
 def printer(speakers)
   
-  batch_badge_creator(attendees).each do |badge|
-    puts badge
+  batch_badge_creator(speakers).each do |name|
+    puts name
   end
 end
 
-  assign_rooms(attendees).each do |assignment|
-    puts assignment
+  assign_rooms(speaker).each do |rooms|
+    puts rooms
   end
 end 
